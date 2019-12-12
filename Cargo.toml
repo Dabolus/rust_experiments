@@ -2,4 +2,5 @@
 
 members = [
     "experiments/hello_world",
+    "experiments/basic_api",
 ]
