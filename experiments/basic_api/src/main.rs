@@ -8,7 +8,7 @@ async fn parametrized(info: web::Path<(u32, String)>) -> impl Responder {
 
 #[get("/*")]
 async fn index() -> impl Responder {
-    format!("Hello everything else!")
+    "Hello everything else!"
 }
 
 #[actix_rt::main]
