@@ -26,7 +26,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: clippy
-          args: --verbose --all -- -W clippy::all -W clippy::pedantic -W clippy::restriction -W clippy::nursery -D warnings
+          args: --verbose --all -- -W clippy::all -W clippy::cargo -W clippy::nursery -D warnings
 
       - name: Test
         uses: actions-rs/cargo@v1
